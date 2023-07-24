@@ -1,6 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
+#include <stdarg.h>
+#include<stdio.h>
+#include<unistd.h>
+#include <stdlib.h>
+#include<string.h>
+
+int print_int(int val);
+void printer(char screen[], int *index);
+int _printf(const char *format, ...);
+int write_char(char s);
+int pu_ts(const char *s);
+=======
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -45,5 +58,6 @@ int printf_char(va_list val);
 int printf_string(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
+>>>>>>> 4bc65afa1d5eb25dd33aeddfbc022cb65f790689
 
 #endif
