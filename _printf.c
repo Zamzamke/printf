@@ -85,4 +85,3 @@ Here:
 	va_end(args);
 	return (len);
 }
->>>>>>> 4bc65afa1d5eb25dd33aeddfbc022cb65f790689
